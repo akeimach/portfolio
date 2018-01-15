@@ -5,6 +5,7 @@ import Carousel from "./components/Carousel";
 import Brewski from "./components/Brewski";
 import CloudNV from "./components/CloudNV";
 import { Route } from "react-router-dom";
+import Tracker from "./components/Tracker";
 
 
 class App extends React.Component {
@@ -36,9 +37,9 @@ class App extends React.Component {
             aboutMeOpen={this.state.aboutMeOpen}
             toggleAboutMe={this.toggleAboutMe}
           />
-          <Route exact path="/" component={Carousel} />
-          <Route exact path="/brewski" component={Brewski} />
-          <Route exact path="/cloudnv" component={CloudNV} />
+          <Route exact path="/" component={Tracker(Carousel)} />
+          <Route exact path="/brewski" component={Tracker(Brewski)} />
+          <Route exact path="/cloudnv" component={Tracker(CloudNV)} />
         </div>
       </div>
     )
