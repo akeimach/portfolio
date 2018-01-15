@@ -101,13 +101,13 @@ a:hover,
 }
 
 .align-left {
-  width: 50%;
+  width: 70%;
   float: left;
   padding-left: 10px;
 }
 
 .align-right {
-  width: 50%;
+  width: 30%;
   float: right;
   text-align: right;
   padding-right: 10px;
@@ -152,7 +152,7 @@ a:hover,
 /* carousel and project containers */
 
 .carousel-item {
-  height: 600px;
+  height: 700px;
 }
 
 .carousel-container {
