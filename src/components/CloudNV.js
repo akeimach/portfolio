@@ -31,7 +31,7 @@ const CloudNV = (props) => {
               <br />
             </Col>
             <Col size="8">
-              <img style={{maxHeight: "350px"}} className="center-img" src="./images/cumulus_description.png" alt="Cumulus cloud information" />
+              <img style={{maxHeight: "350px"}} className="center-img" src="./images/cumulus_description.jpg" alt="Cumulus cloud information" />
             </Col>
           </Row>
           <br /><br />

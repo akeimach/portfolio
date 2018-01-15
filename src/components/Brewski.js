@@ -28,7 +28,7 @@ const Brewski = (props) => {
           </Row>
           <Row>
             <Col size="6">
-              <img style={{maxHeight: "650px"}} className="center-img" src="./images/two_hearted_info.png" alt="Bell's Two Hearted Information" />
+              <img style={{maxHeight: "650px"}} className="center-img" src="./images/two_hearted_info.jpg" alt="Bell's Two Hearted Information" />
             </Col>
             <Col size="6">
               <br /><br />
