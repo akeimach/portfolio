@@ -36,11 +36,9 @@ class App extends React.Component {
             aboutMeOpen={this.state.aboutMeOpen}
             toggleAboutMe={this.toggleAboutMe}
           />
-          <Route exact path="/" render={() => (
-            <Carousel />
-          )}/>
-          <Route exact path="/brewski" component={Brewski}/>
-          <Route exact path="/cloudnv" component={CloudNV}/>
+          <Route exact path="/" component={Carousel} />
+          <Route exact path="/brewski" component={Brewski} />
+          <Route exact path="/cloudnv" component={CloudNV} />
         </div>
       </div>
     )

@@ -204,7 +204,7 @@ a:hover,
   .width-12 { width: 100%; }
 }
 
-@media only screen and (min-height: 900px) {
+@media only screen and (min-height: 850px) {
   .overlay-container { position: fixed; }
 }
 
