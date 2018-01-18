@@ -17,7 +17,7 @@ const Brewski = (props) => {
           <Row>
             <Col size="7">
               <br />
-              <p>Brewski is a web app for beer lovers. Upload or take a picture of a beer label to see it's reviews!</p>
+              <p>Brewski is a web app for beer lovers. Upload or take a picture of a beer label to see its reviews!</p>
               <br />
               <p>Brewski uses Google OAuth so users can log in and write reviews for any beer they've identified using the app.</p>
               <br />
