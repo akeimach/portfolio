@@ -17,11 +17,11 @@ const About = (props) => {
             <br />
             <Row>
               <ul>
-                <li><a href="mailto:alyssakeimach@gmail.com?Subject=Saw%20your%20portfolio..." rel="noopener noreferrer">Email</a></li>
-                <li><a href="https://github.com/akeimach" target="_blank" rel="noopener noreferrer">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/akeimach/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                <li><a href="https://stackoverflow.com/users/4525770/alyssakm" target="_blank" rel="noopener noreferrer">StackOverflow</a></li>
-                <li><a href="https://www.instagram.com/alyssakmac/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="mailto:alyssakeimach@gmail.com?Subject=Saw%20your%20portfolio..." rel="noopener noreferrer"><img style={{maxHeight: "35px", verticalAlign: "bottom"}} src="./images/email_icon.png" alt="email" /> Email</a></li>
+                <li><a href="https://github.com/akeimach" target="_blank" rel="noopener noreferrer"><img style={{maxHeight: "35px", verticalAlign: "bottom"}} src="./images/github_icon.png" alt="github" /> Github</a></li>
+                <li><a href="https://www.linkedin.com/in/akeimach/" target="_blank" rel="noopener noreferrer"><img style={{maxHeight: "35px", verticalAlign: "bottom"}} src="./images/linkedin_icon.png" alt="linkedin" /> LinkedIn</a></li>
+                <li><a href="https://stackoverflow.com/users/4525770/alyssakm" target="_blank" rel="noopener noreferrer"><img style={{maxHeight: "35px", verticalAlign: "bottom"}} src="./images/stackoverflow_icon.png" alt="stackoverflow" /> StackOverflow</a></li>
+                <li><a href="https://www.instagram.com/alyssakmac/" target="_blank" rel="noopener noreferrer"><img style={{maxHeight: "35px", verticalAlign: "bottom"}} src="./images/instagram_icon.png" alt="instagram" /> Instagram</a></li>
               </ul>
             </Row>
             <br /><br />
