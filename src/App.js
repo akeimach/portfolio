@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Carousel from "./components/Carousel";
 import Brewski from "./components/Brewski";
 import CloudNV from "./components/CloudNV";
+import Migreni from "./components/Migreni";
 import { Route } from "react-router-dom";
 import Tracker from "./components/Tracker";
 
@@ -40,6 +41,7 @@ class App extends React.Component {
           <Route exact path="/" component={Tracker(Carousel)} />
           <Route exact path="/brewski" component={Tracker(Brewski)} />
           <Route exact path="/cloudnv" component={Tracker(CloudNV)} />
+          <Route exact path="/migreni" component={Tracker(Migreni)} />
         </div>
       </div>
     )

@@ -30,6 +30,13 @@ const Carousel = (props) => {
               <p>Identify precipitation cloud species</p>
             </Link>
           </div>
+          <div className="carousel-item">
+            <Link to="/migreni" className="square-link">
+              <br />
+              <h3>Mígreni</h3>
+              <p>A clean and streamlined migraine diary app</p>
+            </Link>
+          </div>
           </ReactCarousel>
         </Col>
       </Row>
