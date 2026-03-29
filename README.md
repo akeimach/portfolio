@@ -1,2 +1,3 @@
-# portfolio
-Source repo for gh-pages run deploy
+# React Portfolio
+
+Check it out!
